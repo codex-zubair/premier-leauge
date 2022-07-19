@@ -1,0 +1,66 @@
+/* Body Section
+body
+{
+    display: flex;
+
+    
+    border: 1px solid black;
+} */
+
+
+
+
+
+
+
+
+
+/* header section Start */
+
+
+header
+{
+    display: flex;
+    justify-content: center;
+}
+
+.header-section
+{
+    display: flex;
+    background-color: black;
+    
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 80%;
+    
+}
+
+
+.header-section-left-div
+{
+    margin: 20px;
+}
+
+.header-section-left-div h1
+{
+    color: white;
+    font-size: 40px;
+}
+
+.header-section-left-div p
+{
+    color: white;
+}
+
+.watch-live-button
+{   
+    position: relative;
+    text-decoration: none;
+    background-color: rgb(255, 14, 14);
+    padding: 10px 20px;
+    top: 10px;
+    color: white;
+    border-radius: 2px;
+}
+
+/* header Section End */
