@@ -1,11 +1,9 @@
-/* Body Section
-body
-{
-    display: flex;
 
-    
-    border: 1px solid black;
-} */
+/* Full layout Margin zero */
+*
+{
+ margin: 0;
+}
 
 
 
@@ -64,3 +62,66 @@ header
 }
 
 /* header Section End */
+
+
+
+/*-------------------
+ Main Section Start
+ -------------------*/
+
+main
+{
+    display: flex;
+    background-color: antiquewhite;
+}
+
+
+/* Main Left Section  */
+
+aside
+{
+    background-color: black;
+}
+
+.menu-div
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+}
+
+
+/* main right side article section */
+
+
+.articles-parent-section
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.article-child-div
+{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+
+.article-child-div img
+{width: 100%;
+}
+
+
+
+
+
+
+
+/* Footer Section Start */
+footer
+{
+    background-color: darkgrey;
+}
