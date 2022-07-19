@@ -1,0 +1,127 @@
+
+/* Full layout Margin zero */
+*
+{
+ margin: 0;
+}
+
+
+
+
+
+
+
+
+
+/* header section Start */
+
+
+header
+{
+    display: flex;
+    justify-content: center;
+}
+
+.header-section
+{
+    display: flex;
+    background-color: black;
+    
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 80%;
+    
+}
+
+
+.header-section-left-div
+{
+    margin: 20px;
+}
+
+.header-section-left-div h1
+{
+    color: white;
+    font-size: 40px;
+}
+
+.header-section-left-div p
+{
+    color: white;
+}
+
+.watch-live-button
+{   
+    position: relative;
+    text-decoration: none;
+    background-color: rgb(255, 14, 14);
+    padding: 10px 20px;
+    top: 10px;
+    color: white;
+    border-radius: 2px;
+}
+
+/* header Section End */
+
+
+
+/*-------------------
+ Main Section Start
+ -------------------*/
+
+main
+{
+    display: flex;
+    background-color: antiquewhite;
+}
+
+
+/* Main Left Section  */
+
+aside
+{
+    background-color: black;
+}
+
+.menu-div
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+}
+
+
+/* main right side article section */
+
+
+.articles-parent-section
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.article-child-div
+{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+
+.article-child-div img
+{width: 100%;
+}
+
+
+
+
+
+
+
+/* Footer Section Start */
+footer
+{
+    background-color: darkgrey;
+}
