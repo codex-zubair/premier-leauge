@@ -6,6 +6,15 @@
 }
 
 
+/* Body Section */
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 
 
@@ -18,6 +27,7 @@
 
 header
 {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
 }
@@ -73,23 +83,39 @@ main
 {
     display: flex;
     background-color: antiquewhite;
+    width: 80%;
+    margin-top: 100px;
+    
 }
 
 
-/* Main Left Section  */
+/* Main Aside Left Menu Section*/
 
 aside
 {
     background-color: black;
+    width: 40%;
+    height: 150px;
 }
 
 .menu-div
 {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    background-color: black;
 }
+
+.menu-div a
+{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 20px ;
+    background-color: tomato;
+
+
+}
+
 
 
 /* main right side article section */
@@ -99,24 +125,62 @@ aside
 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    
 }
 
 
 .article-child-div
 {
-    width: 300px;
-    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid black;
+  
+    
+}
+
+.article-transfer-button
+{
+    
+    margin-top: 5px;
+    width: 60px;
+    
+
+}
+
+.article-child-div p
+{
+    margin-top: 10px;
+}
+
+.article-child-div span
+{
     margin: 10px;
 }
 
 
-.article-child-div img
-{width: 100%;
+#icon-1
+{
+    margin-left: 10px;
+}
+#icon-2
+{
+    margin-left: 10px;
 }
 
 
+.article-child-div img
+{
+    width: 100%;
+}
 
-
+.article-transfer-button
+{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
 
 
 
@@ -124,4 +188,12 @@ aside
 footer
 {
     background-color: darkgrey;
+    width: 80%;
+    text-align: center;
+}
+
+.footer-menu-link
+{
+    text-decoration: none;
+    margin: 5px;
 }
