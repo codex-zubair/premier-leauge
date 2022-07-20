@@ -1,9 +1,10 @@
-
 /* Full layout Margin zero */
 *
 {
  margin: 0;
 }
+
+
 
 
 /* Body Section */
@@ -27,9 +28,12 @@ body
 
 header
 {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
+    width: 1320px;
+    height: 645px;
+    
 }
 
 .header-section
@@ -39,36 +43,63 @@ header
     
     border: 1px solid black;
     border-radius: 20px;
-    width: 80%;
+   
     
 }
 
 
 .header-section-left-div
 {
-    margin: 20px;
+    margin-top: 111px;
+    margin-bottom: 111px;
+    margin-left: 105px;
+    margin-right: 23px;
+  
+    
+
 }
 
 .header-section-left-div h1
 {
     color: white;
-    font-size: 40px;
+    font-size: 70px;
 }
 
 .header-section-left-div p
 {
     color: white;
+    font-size: 16px;
 }
 
 .watch-live-button
 {   
+   
     position: relative;
     text-decoration: none;
     background-color: rgb(255, 14, 14);
     padding: 10px 20px;
-    top: 10px;
+    top: 20px;
     color: white;
     border-radius: 2px;
+}
+
+
+.header-section-right-div
+{
+    
+    margin-right: 55px;
+    margin-left: 24px;
+    
+}
+
+
+
+
+
+.header-section-right-div img
+{
+    width: 605px;
+    height: 645px;
 }
 
 /* header Section End */
