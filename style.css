@@ -324,6 +324,9 @@ footer hr
     
     width: 80%;
     margin-top: 50px;
+    height: 1px;
+    border: none;
+    background-color: rgba(72, 77, 77, 0.764);
     
 
 }
@@ -379,7 +382,13 @@ Screen wise Responsive
     body {
         
         display: flex;
-        background-color: red;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    
         
 
 
@@ -390,14 +399,12 @@ Screen wise Responsive
 
     header 
     {
-        background-color: blue;
         position: relative;
 
 
         
-        margin-top: 50px;
+    margin-top: 50px;
     display: flex;
-    margin-right: 9%;
     width: auto;
     height: auto;
     
@@ -407,15 +414,9 @@ Screen wise Responsive
 
 
 
-
-
-
-
-
-
     
 
-    .header-section
+.header-section
 {
     
 display: flex;
@@ -423,7 +424,7 @@ flex-direction: column;
 height: 530px;
 width: 100%;
 width: 85%;
-background-color: yellow;
+
 position: relative;
 
 
@@ -446,7 +447,6 @@ position: relative;
     text-align: center;
     width: 100%;
     height: 100px;
-    background-color: rgb(115, 99, 99);
     padding-bottom: 120px;
     
 }
@@ -487,7 +487,6 @@ position: relative;
     margin-right: 0px;
     display: flex;
     justify-content: center;
-    background-color: red;
     position: relative;
     bottom: 85px;
 }
@@ -499,21 +498,98 @@ position: relative;
     width: 233;
 }
 
-}
 
 
+
+
+/* Article Section */
 main 
 {
-   display: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+.articles-parent-section
+{
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr)
+}
+
+/*
+Article Section End
+*/
+
+
+
+
+
+
+/* Footer Nav Menu */
+
+
+footer h1 
+{
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+
+
+footer hr 
+{
+    margin-top: 30px;
+}
+
+
+
+footer nav{
+   
+    width: 50%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    
+
 }
 
 
 
 
 
-/*
-Article Section 
- */
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
