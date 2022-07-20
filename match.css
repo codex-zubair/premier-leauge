@@ -1,0 +1,1286 @@
+/* Full layout Margin zero */
+*
+{
+ margin: 0;
+}
+
+
+
+
+/* Body Section */
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    back
+    
+}
+
+
+body h1
+{
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+body p
+{
+    font-family: 'Ibarra Real Nova', serif;
+
+}
+
+
+
+
+
+
+/* header section Start */
+
+
+header
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    height: 645px;
+    
+}
+
+.header-section
+{
+    display: flex;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+.header-section-left-div
+{
+    margin-top: 111px;
+    margin-bottom: 111px;
+    margin-left: 105px;
+    margin-right: 24px;
+    width: 50%;
+}
+
+.header-section-left-div h1
+{
+    color: white;
+    font-size: 3rem;
+   
+    
+}
+
+.header-section-left-div p
+{
+    color: white;
+    font-size: 1vw;
+    font-weight: 400;
+    
+     
+}
+
+.watch-live-button
+{   
+   
+    position: relative;
+    text-decoration: none;
+    background-color: rgb(255, 14, 14);
+    padding: 1vw 2.5vw;
+    top: 30px;
+    color: white;
+    border-radius: 3px;
+    font-size: 1.2em;
+    
+    
+}
+
+
+.header-section-right-div
+{
+    
+    margin-right: 55px;
+    
+    
+}
+
+
+
+
+
+.header-section-right-div img
+{
+    height: 640px;
+    width: 600;
+}
+
+/* header Section End */
+
+
+
+/*-------------------
+ Main Section Start
+ -------------------*/
+
+main
+{
+    display: flex;
+    width: 85%;
+    margin-top: 100px;
+   
+    
+}
+
+
+/* Main Aside Left Menu Section*/
+
+aside
+{
+    background-color: black;
+    border-radius: 15px;
+    width: 312px;
+    height: 312px;
+    margin-top: 10px;
+}
+
+.menu-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-div a
+{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px;
+ 
+
+}
+
+
+
+#up-coming-match-button
+{
+    
+    
+    margin-top: 25px;
+
+    border-radius: 10px;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+#all-group-button
+{
+    
+       
+    margin-top: 25px;
+
+    border-radius: 10px;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+#blog-button
+{
+    
+    margin-top: 25px;
+
+    border-radius: 10px;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    background-color: tomato;
+}
+
+
+
+
+
+
+
+
+
+/* main right side article section */
+
+
+.articles-parent-section
+{
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+
+.article-child-div
+{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius:  15px;
+  
+    
+}
+
+.article-transfer-button
+{
+    
+    color: black;
+    font-weight: bold;
+    margin-top: 5px;
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+
+}
+
+.article-child-div h2
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.article-child-div span
+{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  
+   
+}
+
+
+#icon-1
+{
+    margin-left: 10px;
+}
+#icon-2
+{
+    margin-left: 30px;
+}
+
+
+.article-child-div img
+{
+    width: 100%;
+}
+
+.article-transfer-button
+{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+/* View All Button */
+.view-all-button
+{
+    display: none;
+}
+
+
+
+
+/* Footer Section Start */
+footer
+{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 444px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+footer h1
+{
+    font-size: 40px;
+    color: white;
+    
+}
+
+footer hr
+{
+    
+    width: 80%;
+    margin-top: 50px;
+    height: 1px;
+    border: none;
+    background-color: rgb(109, 118, 118);
+    
+
+}
+
+
+
+
+
+footer nav{
+   
+    width: 50%;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 50px;
+
+}
+
+
+
+.footer-menu-link
+{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+
+
+.footer-icons
+{
+    margin-top: 20px;
+
+    width: 20%;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
+.footer-social-icons
+{
+    color: white;
+    font-size:30px;
+}
+
+
+
+/* =========================
+Screen wise Responsive 
+============================*/
+
+/* Media Query for Mobile Devices */
+@media (max-width: 575px) {
+    body {
+        
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    
+    
+        
+
+
+        
+    }
+
+
+
+    header 
+    {
+    position: relative;        
+    margin-top: 30px;
+    display: flex;
+    width: auto;
+    height: auto;
+    
+        
+        
+    }
+
+
+
+
+
+    
+
+.header-section
+{
+    
+display: flex;
+flex-direction: column;
+height: 530px;
+width: 100%;
+width: 85%;
+
+position: relative;
+
+
+
+
+
+
+}
+
+
+
+.header-section-left-div
+{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 60px;
+
+    
+}
+
+
+.header-section-left-div h1
+{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 15px;
+
+
+    
+    
+   
+}
+
+.header-section-left-div>p
+{
+    font-size: 14px;
+    margin: 10px 35px;
+
+    
+    overflow: hidden;
+    
+    
+    
+}
+
+
+.watch-live-button
+{
+    padding: 10px 20px;
+    font-weight: bold;
+    position: relative;
+    top: 10px
+}
+
+
+
+
+
+.header-section-right-div
+{
+    
+    width: 100%;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 120px;
+   
+}
+
+
+.header-section-right-div img
+{
+    height: 245px;
+    width: 233;
+}
+
+
+
+
+
+/* Article Section */
+
+
+
+
+
+/* =========================
+Article Div section EXTRA
+============================ */
+
+.articles-parent-section
+{   
+    
+    text-align: left;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+    
+}
+
+.article-child-div
+{
+  
+    height: 242px;
+    text-align: center;
+    
+
+
+}
+
+.article-flag-div-inside-child-div
+{
+
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+
+
+#flag-right
+{
+    position: relative;
+    right: 10px;
+}
+
+
+
+#flag-left
+{
+    position: relative;
+    left: 10px;
+}
+
+
+
+.article-flag-div-inside-child-div img 
+{
+    width: 100px;
+    height: 60px;
+    position: relative;
+    
+}
+
+
+.article-flag-div-inside-child-div p 
+{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+
+
+
+/* =========================
+Article Div section EXTRA
+============================ */
+
+main 
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.main-left--aside-section
+{
+    height: auto;
+    margin-bottom: 25px;
+}
+
+
+
+.menu-div
+{
+
+    margin-top: 0;
+
+}
+
+
+
+
+
+
+
+#up-coming-match-button
+{
+    border: 1px solid rgba(0, 0, 0, 0.332);
+    
+    margin-top: 0px;
+    border-radius: 10px;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+#all-group-button
+{
+    
+    border: 1px solid rgba(0, 0, 0, 0.332);
+    margin-top: 25px;
+
+    border-radius: 10px;
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    
+}
+#blog-button
+{
+    
+    border: 1px solid rgba(0, 0, 0, 0.332);
+    margin-top: 25px;
+
+    border-radius: 10px;
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+}
+
+
+
+
+.articles-parent-section
+{
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr)
+}
+
+/*
+Article Section End
+*/
+
+
+
+
+
+
+/* Footer Nav Menu */
+
+
+footer h1 
+{
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+
+
+footer hr 
+{
+    margin-top: 30px;
+}
+
+
+
+footer nav{
+   
+    width: 50%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    
+
+}
+
+.footer-menu-section-tab
+{
+    display: none;
+}
+
+
+
+
+
+/* Main section left div aside */
+aside
+{
+    background-color: #00000000;
+    border-radius: 15px;
+    width: 312px;
+    height: 312px;
+}
+
+
+
+
+
+
+/* Footer icons */
+
+.footer-icons
+{
+
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+
+.footer-icons i 
+{
+    font-size: 25px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* Media Query for low resolution  Tablets, Ipads */
+  /* And */
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 576px) and (max-width: 1024px){
+    body {
+        background-color: rgba(162, 255, 0, 0.16);
+    }
+
+
+    body {
+        
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    
+        
+
+
+        
+    }
+
+
+
+    header 
+    {
+    position: relative;        
+    margin-top: 30px;
+    display: flex;
+    width: auto;
+    height: auto;
+
+    
+        
+        
+    }
+
+
+
+    
+
+.header-section
+{
+margin-top: 55px;
+display: flex;
+height: 398px;
+width: 100%;
+width: 85%;
+
+position: relative;
+
+
+
+
+
+
+}
+
+
+
+.header-section-left-div
+{
+
+  
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding-bottom: 120px;
+    
+}
+
+
+.header-section-left-div h1
+{
+    font-size: 22px;
+    text-align: center;
+    margin-left: 53px;
+    margin-right: 53px;
+   
+}
+
+.header-section-left-div p
+{
+    font-size: 14px;
+    margin: 10px 35px;
+    
+    
+}
+
+
+.watch-live-button
+{
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+
+
+.header-section-right-div
+{
+    
+ 
+    position: relative;
+    margin-top: 29px;
+    margin-bottom: 29px;
+    margin-right: 35px;
+}
+
+
+
+.header-section-right-div img
+{
+    position: relative;
+    height: 100%;
+}
+
+
+
+
+
+/* Article Section */
+
+main 
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 0px;
+
+
+}
+
+
+
+.main-left-aside-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 85%;
+    margin-bottom: 25px;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+
+
+
+.menu-div
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding:auto;
+    width: 100%;
+  
+    
+
+}
+
+
+
+
+
+/* Left Button Section */
+
+#up-coming-match-button
+{
+    border: 1px solid rgba(0, 0, 0, 0.332);
+    
+   
+    border-radius: 10px;
+    width: 30.33%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:tomato;
+    margin: 0px;
+}   
+
+#all-group-button
+{
+    
+    border: 1px solid rgba(0, 0, 0, 0.332);
+    
+    
+    border-radius: 10px;
+    width: 30.33%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    
+}
+#blog-button
+{
+    
+    border: 1px solid rgba(0, 0, 0, 0.332);
+    
+    
+    border-radius: 10px;
+    width: 30.33%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+    background-color: white;
+    
+    
+}
+
+
+/* =========================
+Article Div section EXTRA
+============================ */
+
+.articles-parent-section
+{   
+    
+    text-align: left;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+    
+}
+
+.article-child-div
+{
+  
+    height: 242px;
+    text-align: center;
+    
+
+
+}
+
+.article-flag-div-inside-child-div
+{
+
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+
+
+#flag-right
+{
+    position: relative;
+    right: 10px;
+}
+
+
+
+#flag-left
+{
+    position: relative;
+    left: 10px;
+}
+
+
+
+.article-flag-div-inside-child-div img 
+{
+    width: 100px;
+    height: 60px;
+    position: relative;
+    
+}
+
+
+.article-flag-div-inside-child-div p 
+{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+
+
+
+/* =========================
+Article Div section EXTRA
+============================ */
+
+
+
+/*
+Article Section End
+*/
+
+
+/* View All Button */
+.view-all-button
+{
+    display: block;
+    background-color: red;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 12px 30px;
+    color: white;
+}
+
+
+
+/* Footer Nav Menu */
+
+
+footer h1 
+{
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+
+
+footer hr 
+{
+    margin-top: 30px;
+}
+
+
+
+.footer-menu-section{
+   
+    display: none;
+
+
+}
+
+
+.footer-menu-section-tab
+{
+    width: 70%;
+    height: 10%;
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+ 
+}
+
+.footer-menu-section-tab a 
+{
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer icons */
+
+.footer-icons
+{
+
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+
+.footer-icons i 
+{
+    font-size: 25px;
+}
+
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    body {
+        background-color: rgba(61, 181, 241, 0.158);
+    }
+
+    .footer-menu-section-tab
+{
+    display: none;
+}
+
+
+
+
+
+/* =========================
+Article Div section EXTRA
+============================ */
+
+.articles-parent-section
+{   
+    
+    text-align: left;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+    
+}
+
+.article-child-div
+{
+  
+    height: 242px;
+    text-align: center;
+    
+
+
+}
+
+.article-flag-div-inside-child-div
+{
+
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+
+
+#flag-right
+{
+    position: relative;
+    right: 10px;
+}
+
+
+
+#flag-left
+{
+    position: relative;
+    left: 10px;
+}
+
+
+
+.article-flag-div-inside-child-div img 
+{
+    width: 100px;
+    height: 60px;
+    position: relative;
+    
+}
+
+
+.article-flag-div-inside-child-div p 
+{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+
+
+
+/* =========================
+Article Div section EXTRA
+============================ */
+
+
+}
+
+
+
+
+
+  
+
+
+
+
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    body {
+        background-color: white;
+    }
+}
+    
