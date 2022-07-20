@@ -51,12 +51,8 @@ header
 {
     display: flex;
     background-color: black;
-    
     border: 1px solid black;
     border-radius: 20px;
-    
-   
-    
 }
 
 
@@ -65,15 +61,8 @@ header
     margin-top: 111px;
     margin-bottom: 111px;
     margin-left: 105px;
-    margin-right: 23px;
+    margin-right: 24px;
     width: 50%;
-  
-    
-    
-    
-  
-    
-
 }
 
 .header-section-left-div h1
@@ -388,9 +377,151 @@ Screen wise Responsive
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
     body {
+        
+        display: flex;
         background-color: red;
+        
+
+
+        
     }
+
+
+
+    header 
+    {
+        background-color: blue;
+        position: relative;
+
+
+        
+        margin-top: 50px;
+    display: flex;
+    margin-right: 9%;
+    width: auto;
+    height: auto;
+    
+        
+        
+    }
+
+
+
+
+
+
+
+
+
+    
+
+    .header-section
+{
+    
+display: flex;
+flex-direction: column;
+height: 530px;
+width: 100%;
+width: 85%;
+background-color: yellow;
+position: relative;
+
+
+
+
+
+
 }
+
+
+
+.header-section-left-div
+{
+
+  
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(115, 99, 99);
+    padding-bottom: 120px;
+    
+}
+
+
+.header-section-left-div h1
+{
+    font-size: 22px;
+    text-align: center;
+    margin-left: 53px;
+    margin-right: 53px;
+   
+}
+
+.header-section-left-div p
+{
+    font-size: 14px;
+    margin: 10px 35px;
+    
+    
+}
+
+
+.watch-live-button
+{
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+.header-section-right-div
+{
+    
+    width: 100%;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    position: relative;
+    bottom: 85px;
+}
+
+
+.header-section-right-div img
+{
+    height: 245px;
+    width: 233;
+}
+
+}
+
+
+main 
+{
+   display: none;
+}
+
+
+
+
+
+/*
+Article Section 
+ */
+
+
+
+
+
+
+
+
   
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
