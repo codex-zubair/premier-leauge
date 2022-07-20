@@ -142,13 +142,14 @@ aside
     border-radius: 15px;
     width: 312px;
     height: 312px;
+    margin-top: 10px;
 }
 
 .menu-div
 {
     display: flex;
-    flex-direction: column; 
-    
+    flex-direction: column;
+    align-items: center;
 }
 
 .menu-div a
@@ -167,44 +168,36 @@ aside
 #up-coming-match-button
 {
     
-    color: #ffffff;
+    
     margin-top: 25px;
-    margin-left:30px;
-    margin-right: 30px;
-    text-align: center;
+
+    border-radius: 10px;
+    width: 80%;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-radius: 10px;
-    border-radius: 15px;
     background-color: rgb(255, 255, 255);
 }
 #all-group-button
 {
     
-    color: #ffffff;
+       
     margin-top: 25px;
-    margin-left:30px;
-    margin-right: 30px;
-    text-align: center;
+
+    border-radius: 10px;
+    width: 80%;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-radius: 10px;
-    border-radius: 15px;
-    
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(255, 255, 255);
 }
 #blog-button
 {
     
-    color: #f8f8f8;
     margin-top: 25px;
-    margin-left:30px;
-    margin-right: 30px;
-    text-align: center;
+
+    border-radius: 10px;
+    width: 80%;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-radius: 10px;
-    border-radius: 15px;
     
     background-color: tomato;
 }
@@ -326,7 +319,7 @@ footer hr
     margin-top: 50px;
     height: 1px;
     border: none;
-    background-color: rgba(72, 77, 77, 0.764);
+    background-color: rgb(109, 118, 118);
     
 
 }
@@ -503,19 +496,86 @@ position: relative;
 
 
 /* Article Section */
+
 main 
 {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+
 }
+
+
+
+.main-left-section
+{
+    height: auto;
+    margin-bottom: 25px;
+}
+
+
+
+.menu-div
+{
+
+    margin-top: 0;
+
+}
+
+
+
+
+
+
+
+#up-coming-match-button
+{
+    border: 1px solid rgba(0, 0, 0, 0.332);
+    
+    margin-top: 0px;
+    border-radius: 10px;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+#all-group-button
+{
+    
+    border: 1px solid rgba(0, 0, 0, 0.332);
+    margin-top: 25px;
+
+    border-radius: 10px;
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    
+}
+#blog-button
+{
+    
+    border: 1px solid rgba(0, 0, 0, 0.332);
+    margin-top: 25px;
+
+    border-radius: 10px;
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+}
+
 
 
 
 .articles-parent-section
 {
-    
+
     display: grid;
     grid-template-columns: repeat(1, 1fr)
 }
@@ -534,7 +594,7 @@ Article Section End
 
 footer h1 
 {
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 22px;
 }
 
@@ -563,12 +623,34 @@ footer nav{
 
 
 
+/* Main section left div aside */
+aside
+{
+    background-color: #00000000;
+    border-radius: 15px;
+    width: 312px;
+    height: 312px;
+}
 
 
 
 
 
 
+/* Footer icons */
+
+.footer-icons
+{
+
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+
+.footer-icons i 
+{
+    font-size: 25px;
+}
 
 
 
