@@ -1,3 +1,321 @@
+
+/* =========================
+Screen wise Responsive 
+============================*/
+
+/* Media Query for Mobile Devices */
+@media (max-width: 575px) {
+    body {
+        
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    
+        
+
+
+        
+    }
+
+
+
+    header 
+    {
+    position: relative;        
+    margin-top: 30px;
+    display: flex;
+    width: auto;
+    height: auto;
+    
+        
+        
+    }
+
+
+
+    
+
+.header-section
+{
+    
+display: flex;
+flex-direction: column;
+height: 530px;
+width: 100%;
+width: 85%;
+
+position: relative;
+
+
+
+
+
+
+}
+
+
+
+.header-section-left-div
+{
+
+  
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding-bottom: 120px;
+    
+}
+
+
+.header-section-left-div h1
+{
+    font-size: 22px;
+    text-align: center;
+    margin-left: 53px;
+    margin-right: 53px;
+   
+}
+
+.header-section-left-div p
+{
+    font-size: 14px;
+    margin: 10px 35px;
+    
+    
+}
+
+
+.watch-live-button
+{
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+.header-section-right-div
+{
+    
+    width: 100%;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 85px;
+}
+
+
+.header-section-right-div img
+{
+    height: 245px;
+    width: 233;
+}
+
+
+
+
+
+/* Article Section */
+
+main 
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.main-left--aside-section
+{
+    height: auto;
+    margin-bottom: 25px;
+}
+
+
+
+.menu-div
+{
+
+    margin-top: 0;
+
+}
+
+
+
+
+
+
+
+#up-coming-match-button
+{
+    border: 1px solid rgba(0, 0, 0, 0.332);
+    
+    margin-top: 0px;
+    border-radius: 10px;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+#all-group-button
+{
+    
+    border: 1px solid rgba(0, 0, 0, 0.332);
+    margin-top: 25px;
+
+    border-radius: 10px;
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    
+}
+#blog-button
+{
+    
+    border: 1px solid rgba(0, 0, 0, 0.332);
+    margin-top: 25px;
+
+    border-radius: 10px;
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+}
+
+
+
+
+.articles-parent-section
+{
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr)
+}
+
+/*
+Article Section End
+*/
+
+
+
+
+
+
+/* Footer Nav Menu */
+
+
+footer h1 
+{
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+
+
+footer hr 
+{
+    margin-top: 30px;
+}
+
+
+
+footer nav{
+   
+    width: 50%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    
+
+}
+
+.footer-menu-section-tab
+{
+    display: none;
+}
+
+
+
+
+
+/* Main section left div aside */
+aside
+{
+    background-color: #00000000;
+    border-radius: 15px;
+    width: 312px;
+    height: 312px;
+}
+
+
+
+
+
+
+/* Footer icons */
+
+.footer-icons
+{
+
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+
+.footer-icons i 
+{
+    font-size: 25px;
+}
+
+
+
+
+}
+
+
+
+/* For Galaxy Fold Device */
+@media (max-width: 280px) 
+{
+
+   
+
+    .header-section-right-div img
+
+    {
+        position:relative;
+        top:100px;
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+
+
+
+
+
   
 /* Media Query for low resolution  Tablets, Ipads */
   /* And */
@@ -324,3 +642,9 @@ footer hr
 }
 
 }
+
+
+
+
+
+
