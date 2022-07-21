@@ -156,6 +156,7 @@ main
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    background-color: red;
     margin-top: 25px;
     margin-bottom: 10px;
 }
