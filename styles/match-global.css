@@ -14,7 +14,7 @@ body
     flex-direction: column;
     align-items: center;
     width: 100%;
-    back
+
     
 }
 
@@ -191,6 +191,9 @@ aside
     padding-bottom: 20px;
     background-color: rgb(255, 255, 255);
 }
+
+
+
 #blog-button
 {
     
@@ -202,7 +205,17 @@ aside
     padding-bottom: 20px;
     
     background-color: tomato;
+
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -217,8 +230,10 @@ aside
 
 .articles-parent-section
 {
+   
     display: grid;
     width: 80%;
+    height: 400px;
     grid-template-columns: repeat(3,1fr);
     
 }
@@ -231,22 +246,9 @@ aside
     margin: 10px;
     border: 1px solid rgb(219, 219, 219);
     border-radius:  15px;
-  
-    
 }
 
-.article-transfer-button
-{
-    
-    color: black;
-    font-weight: bold;
-    margin-top: 5px;
-    width: 60px;
-    margin-left: 10px;
-    margin-top: 10px;
-    
 
-}
 
 .article-child-div h2
 {
@@ -254,24 +256,7 @@ aside
     margin-left: 10px;
 }
 
-.article-child-div span
-{
-    display: flex;
-    margin-bottom: 10px;
-    margin-top: 10px;
-  
-   
-}
 
-
-#icon-1
-{
-    margin-left: 10px;
-}
-#icon-2
-{
-    margin-left: 30px;
-}
 
 
 .article-child-div img
@@ -279,13 +264,22 @@ aside
     width: 100%;
 }
 
-.article-transfer-button
+
+#flag-left
 {
-    text-decoration: none;
-    border: 2px solid black;
-    border-radius: 5px;
-    padding: 5px 10px;
+    width: 92px;
+    height: 55px;
 }
+
+
+#flag-right
+{
+    width: 92px;
+    height: 55px;
+}
+
+
+
 
 
 /* View All Button */

@@ -1,11 +1,9 @@
 
-
-
-
-
-
-
 /* Media Query for Laptops and Desktops */
+
+
+
+/* 
 @media (min-width: 1025px) and (max-width: 1280px){
     body {
         background-color: rgba(41, 157, 215, 0.158);
@@ -24,9 +22,10 @@
 main 
 {
 
-
 display: grid;
+
 width: 85%;
+
 grid-template-columns: 312px 1fr;
 }
 
@@ -39,10 +38,6 @@ width: 100%;
 
 
 
-
-/* =========================
-Article Div section EXTRA
-============================ */
 
 .articles-parent-section
 {   
@@ -111,25 +106,11 @@ Article Div section EXTRA
 
 
 
-/* =========================
-Article Div section EXTRA
-============================ */
-
-
-}
 
 
 
 
 
-  
-
-
-
-
-
-
-/* Media Query for Large screens */
 @media (min-width: 1281px) {
     body {
         background-color: white;
@@ -149,9 +130,7 @@ Article Div section EXTRA
 
     
 
-/* =========================
-Article Div section EXTRA
-============================ */
+
 
 .articles-parent-section
 {   
@@ -220,11 +199,6 @@ Article Div section EXTRA
 
 
 
-/* =========================
-Article Div section EXTRA
-============================ */
-
-
 
 }
-    
+    */

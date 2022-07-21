@@ -14,16 +14,20 @@ Screen wise Responsive
         margin-right: 0px;
         width: 100%;
         text-align: center;
-        align-items: center;
-    
-    
-        
-
-
-        
+        align-items: center; 
     }
 
 
+
+
+
+
+
+
+
+
+
+/* Header Section Start */
 
     header 
     {
@@ -31,210 +35,137 @@ Screen wise Responsive
     margin-top: 30px;
     display: flex;
     width: auto;
-    height: auto;
+    height: auto;    
+    }
+
+
+
+    .header-section
+    {
     
+    display: flex;
+    flex-direction: column;
+    height: 530px;
+    width: 100%;
+    width: 85%;
+
+    position: relative;
+
+    }
+
+
+
+    .header-section-left-div
+    {
+
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 10px;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding-bottom: 60px;
+
+        
+    }
+
+
+    .header-section-left-div h1
+    {
+        font-size: 22px;
+        text-align: center;
+        margin-top: 15px;
+
+
         
         
+    
+    }
+
+    .header-section-left-div>p
+    {
+        font-size: 14px;
+        margin: 10px 35px;
+
+        
+        overflow: hidden;
+        
+        
+        
+    }
+
+
+    .watch-live-button
+    {
+        padding: 10px 20px;
+        font-weight: bold;
+        position: relative;
+        top: 10px
     }
 
 
 
 
 
+    .header-section-right-div
+    {
+        
+        width: 100%;
+        margin-right: 0px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 120px;
     
+    }
 
-.header-section
-{
-    
-display: flex;
-flex-direction: column;
-height: 530px;
-width: 100%;
-width: 85%;
 
-position: relative;
+    .header-section-right-div img
+    {
+        height: 245px;
+        width: 233;
+    }
 
+/* Header Section End */
 
 
 
 
 
-}
-
-
-
-.header-section-left-div
-{
-
-    display: flex;
-    flex-direction: column;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 10px;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: auto;
-    padding-bottom: 60px;
-
-    
-}
-
-
-.header-section-left-div h1
-{
-    font-size: 22px;
-    text-align: center;
-    margin-top: 15px;
-
-
-    
-    
-   
-}
-
-.header-section-left-div>p
-{
-    font-size: 14px;
-    margin: 10px 35px;
-
-    
-    overflow: hidden;
-    
-    
-    
-}
-
-
-.watch-live-button
-{
-    padding: 10px 20px;
-    font-weight: bold;
-    position: relative;
-    top: 10px
-}
 
 
 
 
 
-.header-section-right-div
-{
-    
-    width: 100%;
-    margin-right: 0px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    bottom: 120px;
-   
-}
-
-
-.header-section-right-div img
-{
-    height: 245px;
-    width: 233;
-}
 
 
 
 
 
-/* Article Section */
+/*Main Section*/
 
 
-
-
-
-/* =========================
-Article Div section EXTRA
-============================ */
-
-.articles-parent-section
-{   
-    
-    text-align: left;
-    width: 85%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr)
-    
-}
-
-.article-child-div
-{
-  
-    height: 242px;
-    text-align: center;
-    
-
-
-}
-
-.article-flag-div-inside-child-div
-{
-
-    height: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 30px;
-
-}
-
-
-#flag-right
-{
-    position: relative;
-    right: 10px;
-}
-
-
-
-#flag-left
-{
-    position: relative;
-    left: 10px;
-}
-
-
-
-.article-flag-div-inside-child-div img 
-{
-    width: 100px;
-    height: 60px;
-    position: relative;
-    
-}
-
-
-.article-flag-div-inside-child-div p 
-{
-    font-weight: bolder;
-    font-size: 25px;
-}
-
-
-
-
-
-/* =========================
-Article Div section EXTRA
-============================ */
 
 main 
 {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     width: 100%;
     margin-top: 25px;
     margin-bottom: 10px;
-
 }
 
 
 
+
+
+
+/* Main Aside Menu Section Start */
 .main-left--aside-section
 {
     height: auto;
@@ -255,7 +186,7 @@ main
 
 
 
-
+/* Left Button Section */
 #up-coming-match-button
 {
     border: 1px solid rgba(0, 0, 0, 0.332);
@@ -294,6 +225,89 @@ main
 
     
 }
+/* Left Button Section End */
+
+
+
+
+
+
+/* Main aside section End */
+
+
+
+
+
+
+
+/* Main Right Article Section Start */
+.articles-parent-section
+{   
+    
+    text-align: center;
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.article-child-div
+{
+  
+    height: 242px;
+    text-align: center;
+    
+
+
+}
+
+.article-flag-div-inside-child-div
+{
+
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+
+
+#flag-right
+{
+    position: relative;
+    right: 5px;
+}
+
+
+
+#flag-left
+{
+    position: relative;
+    left: 5px;
+}
+
+
+
+.article-flag-div-inside-child-div img 
+{
+    width: 100px;
+    height: 60px;
+    position: relative;
+    
+}
+
+
+.article-flag-div-inside-child-div p 
+{
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
 
 
 

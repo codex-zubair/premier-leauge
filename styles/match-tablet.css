@@ -1,18 +1,16 @@
 
-
   
 /* Media Query for low resolution  Tablets, Ipads */
   /* And */
 /* Media Query for Tablets Ipads portrait mode */
+
+
+
+
 @media (min-width: 576px) and (max-width: 1024px){
-    body {
-        background-color: rgba(162, 255, 0, 0.16);
-    }
 
-
-
-
-    /* Body Section */
+     
+    
     body {
         
         display: flex;
@@ -22,14 +20,15 @@
         width: 100%;
         text-align: center;
         justify-content: center;
-    
+        background-color: rgba(162, 255, 0, 0.16);
+        
         
     }
 
 
 
 
-    /* Header */
+
     header 
     {
     position: relative;        
@@ -128,9 +127,7 @@ position: relative;
 
 
 
-/* ------------------
-Main Section
---------------------- */
+
 
 main 
 {
@@ -181,7 +178,7 @@ main
 
 
 
-/* Left Button Section */
+
 
 #up-coming-match-button
 {
@@ -227,15 +224,14 @@ main
 }
 
 
-/* =========================
-Article Div section EXTRA
-============================ */
+
 
 .articles-parent-section
 {   
     
     text-align: left;
     width: 85%;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr)
     
@@ -246,7 +242,7 @@ Article Div section EXTRA
   
     height: 242px;
     text-align: center;
-    
+
 
 
 }
@@ -298,33 +294,11 @@ Article Div section EXTRA
 
 
 
-/* =========================
-Article Div section EXTRA
-============================ */
 
 
 
-/*
-Article Section End
-*/
 
-
-/* View All Button */
-.view-all-button
-{
-    display: block;
-    background-color: red;
-    border: none;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 12px 30px;
-    color: white;
-}
-
-
-
-/* Footer Nav Menu */
-
+/* Footer Section */
 
 footer h1 
 {
@@ -372,7 +346,7 @@ footer hr
 
 
 
-/* Footer icons */
+
 
 .footer-icons
 {
@@ -389,7 +363,6 @@ footer hr
 
 }
   
-
 
 
 
