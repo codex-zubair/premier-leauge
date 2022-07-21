@@ -14,8 +14,7 @@ margin-left: 0px;
 margin-right: 0px;
 width: 100%;
 text-align: center;
-justify-content: center;
-background-color:skyblue;       
+justify-content: center;      
 }
 
 
@@ -91,7 +90,7 @@ position: relative;
 
 .watch-live-button
 {
-    padding: 8px 12px;
+    padding: 12px 12px;
     width: 160px;
     font-weight: 600;
     font-size: 1.3em;
