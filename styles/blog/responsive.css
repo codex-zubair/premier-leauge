@@ -323,7 +323,7 @@ aside
 /* Media Query for low resolution  Tablets, Ipads */
 /* And */
 /* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 575px) and (max-width: 768px){
+@media (min-width: 576px) and (max-width: 768px){
 
 
 
@@ -416,6 +416,7 @@ height: 200px;
 #live-button
 {
 display: flex;
+align-items: center;
 height: 20px;
 position: relative;
 bottom:200px;
