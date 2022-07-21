@@ -294,6 +294,22 @@ aside
 
 
 
+/* For Galaxy Fold Device */
+@media (max-width: 280px) 
+{
+
+   
+
+    .header-section-right-div img
+
+    {
+        position:relative;
+        top:100px;
+        width: 150px;
+        height: 150px;
+    }
+
+}
 
 
 
