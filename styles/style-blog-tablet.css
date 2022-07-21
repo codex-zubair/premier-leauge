@@ -1,0 +1,326 @@
+  
+/* Media Query for low resolution  Tablets, Ipads */
+  /* And */
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 576px) and (max-width: 1024px){
+    body {
+        background-color: rgba(162, 255, 0, 0.609);
+    }
+
+
+    body {
+        
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    
+        
+
+
+        
+    }
+
+
+
+    header 
+    {
+    position: relative;        
+    margin-top: 30px;
+    display: flex;
+    width: auto;
+    height: auto;
+
+    
+        
+        
+    }
+
+
+
+    
+
+.header-section
+{
+margin-top: 55px;
+display: flex;
+height: 398px;
+width: 100%;
+width: 85%;
+
+position: relative;
+
+
+
+
+
+
+}
+
+
+
+.header-section-left-div
+{
+
+  
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding-bottom: 120px;
+    
+}
+
+
+.header-section-left-div h1
+{
+    font-size: 22px;
+    text-align: center;
+    margin-left: 53px;
+    margin-right: 53px;
+   
+}
+
+.header-section-left-div p
+{
+    font-size: 14px;
+    margin: 10px 35px;
+    
+    
+}
+
+
+.watch-live-button
+{
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+
+
+.header-section-right-div
+{
+    
+ 
+    position: relative;
+    margin-top: 29px;
+    margin-bottom: 29px;
+    margin-right: 35px;
+}
+
+
+
+.header-section-right-div img
+{
+    position: relative;
+    height: 100%;
+}
+
+
+
+
+
+/* Article Section */
+
+main 
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 0px;
+
+
+}
+
+
+
+.main-left-aside-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 85%;
+    margin-bottom: 25px;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+
+
+
+.menu-div
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding:auto;
+    width: 100%;
+  
+    
+
+}
+
+
+
+
+
+/* Left Button Section */
+
+#up-coming-match-button
+{
+    border: 1px solid rgba(0, 0, 0, 0.332);
+    
+   
+    border-radius: 10px;
+    width: 30.33%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}   
+
+#all-group-button
+{
+    
+    border: 1px solid rgba(0, 0, 0, 0.332);
+    
+    
+    border-radius: 10px;
+    width: 30.33%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    
+}
+#blog-button
+{
+    
+    border: 1px solid rgba(0, 0, 0, 0.332);
+    
+    
+    border-radius: 10px;
+    width: 30.33%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+    
+    
+}
+
+
+
+
+.articles-parent-section
+{
+    text-align: left;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+
+/*
+Article Section End
+*/
+
+
+/* View All Button */
+.view-all-button
+{
+    display: block;
+    background-color: red;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 12px 30px;
+    color: white;
+}
+
+
+
+/* Footer Nav Menu */
+
+
+footer h1 
+{
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+
+
+footer hr 
+{
+    margin-top: 30px;
+}
+
+
+
+.footer-menu-section{
+   
+    display: none;
+
+
+}
+
+
+.footer-menu-section-tab
+{
+    width: 70%;
+    height: 10%;
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+ 
+}
+
+.footer-menu-section-tab a 
+{
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+/* Footer icons */
+
+.footer-icons
+{
+
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+
+.footer-icons i 
+{
+    font-size: 25px;
+}
+
+}

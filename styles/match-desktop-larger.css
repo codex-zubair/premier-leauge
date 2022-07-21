@@ -1,0 +1,230 @@
+
+
+
+
+
+
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+    body {
+        background-color: rgba(41, 157, 215, 0.158);
+    }
+
+    .footer-menu-section-tab
+{
+    display: none;
+}
+
+
+
+
+}
+
+main 
+{
+
+
+display: grid;
+width: 85%;
+grid-template-columns: 312px 1fr;
+}
+
+.articles-parent-section
+{
+width: 100%;
+}
+
+
+
+
+
+
+/* =========================
+Article Div section EXTRA
+============================ */
+
+.articles-parent-section
+{   
+    
+    text-align: left;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+    
+}
+
+.article-child-div
+{
+  
+    height: 242px;
+    text-align: center;
+    
+
+
+}
+
+.article-flag-div-inside-child-div
+{
+
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+
+
+#flag-right
+{
+    position: relative;
+    right: 10px;
+}
+
+
+
+#flag-left
+{
+    position: relative;
+    left: 10px;
+}
+
+
+
+.article-flag-div-inside-child-div img 
+{
+    width: 100px;
+    height: 60px;
+    position: relative;
+    
+}
+
+
+.article-flag-div-inside-child-div p 
+{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+
+
+
+/* =========================
+Article Div section EXTRA
+============================ */
+
+
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    body {
+        background-color: white;
+    }
+
+    main 
+    {
+        
+        background-color: yellow;
+        
+        display: grid;
+        width: 85%;
+        grid-template-columns: 312px 1fr;
+    }
+    
+    
+
+    
+
+/* =========================
+Article Div section EXTRA
+============================ */
+
+.articles-parent-section
+{   
+    
+    text-align: left;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+    
+}
+
+.article-child-div
+{
+  
+    height: 242px;
+    text-align: center;
+    
+
+
+}
+
+.article-flag-div-inside-child-div
+{
+
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+
+
+#flag-right
+{
+    position: relative;
+    right: 10px;
+}
+
+
+
+#flag-left
+{
+    position: relative;
+    left: 10px;
+}
+
+
+
+.article-flag-div-inside-child-div img 
+{
+    width: 100px;
+    height: 60px;
+    position: relative;
+    
+}
+
+
+.article-flag-div-inside-child-div p 
+{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+
+
+
+/* =========================
+Article Div section EXTRA
+============================ */
+
+
+
+}
+    
