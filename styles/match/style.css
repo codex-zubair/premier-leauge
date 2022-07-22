@@ -307,13 +307,24 @@ aside:hover #blog-button
 {
     display: flex;
     flex-direction: column;
+    text-align: center;
     justify-content: left;
     margin: 10px;
     border: 1px solid rgb(219, 219, 219);
     border-radius:  15px;
-  
-    
 }
+
+.article-flag-div-inside-child-div
+{
+    display: grid;
+    grid-template-columns:1fr 3vw 1fr;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.2vw;
+    margin-left: 1.2vw;
+    margin-right: 1.2vw;
+}
+
 
 .article-transfer-button
 {   

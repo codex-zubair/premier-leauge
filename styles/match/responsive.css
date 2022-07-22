@@ -605,20 +605,7 @@ Article Section End
 */
 
 
-/* View All Button */
-.view-all-button
-{
-display: block;
-border-radius: 5px;
-font-size: 20px;
-font-weight: 600;
-background-color: red;
-border: none;
-margin-top: 20px;
-margin-bottom: 20px;
-padding: 12px 33px;
-color: white;
-}
+
 
 
 
@@ -912,7 +899,10 @@ main p
 
 
 
-
+.footer-menu-section
+{
+    display: none;
+}
 
 
 
