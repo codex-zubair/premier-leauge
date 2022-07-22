@@ -311,6 +311,18 @@ aside
 }
 
 
+.footer-menu-section a:hover
+{
+    color: rgb(0, 255, 229);
+}
+
+.footer-icons i:hover
+{
+    color: rgb(0, 255, 229); 
+}
+
+
+
 
 /* For Galaxy Fold Device */
 @media (max-width: 280px) 
@@ -649,13 +661,14 @@ display: none;
 
 .footer-menu-section-tab
 {
-width: 70%;
+width: 80%;
 height: 10%;
 margin-top: 30px;
 display: flex;
 justify-content:center;
 align-items: center;
 flex-wrap: wrap;
+
 
 }
 
@@ -668,6 +681,15 @@ margin-right: 10px;
 
 
 
+.footer-menu-section-tab a:hover
+{
+    color: rgb(0, 255, 229);
+}
+
+.footer-icons i:hover
+{
+    color: rgb(0, 255, 229); 
+}
 
 
 
@@ -915,6 +937,39 @@ main p
 .footer-menu-section
 {
     display: none;
+   
+
+}
+
+
+.footer-menu-section-tab
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+   
+}
+
+.footer-menu-section-tab a 
+{
+
+    margin-left: 5px;
+}
+.footer-menu-section-tab a:hover
+{
+    color: rgb(0, 255, 229);
+}
+
+.footer-icons i:hover
+{
+    color: rgb(0, 255, 229); 
+}
+
+
+.footer-menu-section-tab span 
+{
+    margin-top: 10px;
 }
 
 
@@ -974,6 +1029,16 @@ main p
     {
         display: none;
     }
+    .footer-menu-section a:hover
+{
+    color: rgb(0, 255, 229);
+}
+
+.footer-icons i:hover
+{
+    color: rgb(0, 255, 229); 
+}
+
 }
 
 
