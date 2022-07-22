@@ -12,8 +12,8 @@ body
 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 100%;
     back
     
 }
@@ -185,8 +185,10 @@ header
 main
 {
     display: flex;
+    justify-content: center;
     width: 85%;
     margin-top: 100px;
+    
    
     
 }
@@ -198,8 +200,8 @@ aside
 {
     background-color: black;
     border-radius: 15px;
-    width: 312px;
-    height: 312px;
+    width: 250px;
+    height: 300px;
     margin-top: 10px;
 }
 
