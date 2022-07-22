@@ -912,7 +912,10 @@ main p
 
 
 
-
+.footer-menu-section
+{
+    display: none;
+}
 
 
 
